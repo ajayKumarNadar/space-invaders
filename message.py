@@ -86,7 +86,6 @@ class Message(Turtle):
         self.forward(85)
         self.setheading(75)
         self.forward(85)
-        print(self.pos())
 
         self.penup()
         self.setheading(0)

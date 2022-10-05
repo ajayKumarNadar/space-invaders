@@ -38,7 +38,6 @@ while game_on and level <= 5:
     spaceship.shape("images/spaceship64.gif")
     spaceship.goto(0, -200)
 
-
     # ---- Move Spaceship with Mouse ---- #
     def move_spaceship(x_val, y_val):
         if -380 < x_val < 380:
